@@ -1,0 +1,95 @@
+.heading1 {
+  margin: 30px auto;
+  text-align: center;
+  color: rgb(255, 136, 0);
+  font-size: 2.3rem;
+  font-weight: 290;
+}
+
+.input_form {
+  width: 50%;
+  margin: 10px auto;
+  border-radius: 5px;
+  padding: 10px;
+  background: rgb(17, 17, 17);
+  border: 2.5px solid rgb(255, 136, 0);
+  text-align: left;
+}
+
+.input_task {
+  width: 80%;
+  height: 15px;
+  padding: 10px;
+  border: 2px solid rgb(255, 136, 0);
+  color: rgb(255, 136, 0);
+  background: white;
+  border-radius: 3px;
+}
+.add_task {
+  height: 39px;
+  background: rgb(255, 136, 0);
+  color: white;
+  border: 2px solid rgb(255, 136, 0);
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+table {
+  width: 50%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+tr {
+  border-bottom: 2px solid #000;
+}
+
+th {
+  font-size: 19px;
+  color: rgb(255, 136, 0);
+}
+
+th,
+td {
+  border: none;
+  height: 30px;
+  padding: 5px;
+}
+
+.delete_task {
+  background-color: rgb(255, 136, 0);
+  color: white;
+  cursor: pointer;
+  border: none;
+  margin: 0 auto;
+  display: inline;
+  width: 60px;
+  border-radius: 15px;
+}
+
+.delete_task:hover {
+  color: rgb(255, 136, 0);
+  background-color: white;
+}
+
+.edit_task {
+  background-color: rgb(255, 136, 0);
+  color: white;
+  cursor: pointer;
+  border: none;
+  margin: 0 auto;
+  display: inline;
+  width: 60px;
+  border-radius: 15px;
+}
+
+.edit_task:hover {
+  color: rgb(255, 136, 0);
+  background-color: white;
+}
+
+form p {
+  color: rgb(255, 136, 0);
+}
